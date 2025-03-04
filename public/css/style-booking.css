@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #f1c40f;
+}
+
+form {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #f1c40f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ffae00;
+}
+
+.room-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.room {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+    margin: 5px;
+}
+
+.room img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.room h3 {
+    margin: 10px 0;
+    color: #f1c40f;
+}
+
