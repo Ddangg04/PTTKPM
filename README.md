@@ -64,10 +64,9 @@ Dự án nhằm phát triển một nền tảng web giúp người dùng dễ d
   - Laravel Policy (Phân quyền)
   
   
-  ## Sơ đồ 
+  ## Sơ đồ use case
   
- ![image](https://github.com/user-attachments/assets/cbbceb92-cde8-4f1d-a543-1e28d358ba1d)
-
+ ![image](https://github.com/user-attachments/assets/27050daf-6466-4293-a07a-48c349320bed)
 
   ## Hình ảnh website
   ![image](https://github.com/user-attachments/assets/98836a72-6ed4-449f-a344-3467c66d5e10)
