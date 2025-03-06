@@ -66,7 +66,8 @@ Dự án nhằm phát triển một nền tảng web giúp người dùng dễ d
   
   ## Sơ đồ USECASE
   
- ![image](https://drive.google.com/file/d/1Ly4pRVzN2v0OWBJQ6XoIBD6iZhAu85U3/view?usp=sharing)
+ ![image](https://github.com/user-attachments/assets/cbbceb92-cde8-4f1d-a543-1e28d358ba1d)
+
 
   ## Hình ảnh website
   ![image](https://github.com/user-attachments/assets/98836a72-6ed4-449f-a344-3467c66d5e10)
