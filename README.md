@@ -65,8 +65,8 @@ Dự án nhằm phát triển một nền tảng web giúp người dùng dễ d
   
   
   ## Sơ đồ use case
-  
- ![image](https://github.com/user-attachments/assets/27050daf-6466-4293-a07a-48c349320bed)
+  ![image](https://github.com/user-attachments/assets/727543c3-8edd-4362-83ad-39fb812ede32)
+
 
   ## Hình ảnh website
   ![image](https://github.com/user-attachments/assets/98836a72-6ed4-449f-a344-3467c66d5e10)
