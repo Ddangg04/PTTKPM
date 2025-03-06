@@ -1,64 +1,86 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Web Đặt Phòng Karaoke
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 1. Tên Đề Tài
+Hệ thống Web Đặt phòng Karaoke
 
-## About Laravel
+### Mô tả Dự án
+Dự án nhằm phát triển một nền tảng web giúp người dùng dễ dàng tìm kiếm, đặt phòng theo nhu cầu, và quản lý lịch đặt phòng. Web cung cấp giao diện thân thiện, tính năng tích hợp linh hoạt, và đảm bảo trải nghiệm người dùng.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 2. Motivation - Why
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Tại sao nhóm lại muốn xây dựng đề tài này?
+- Trong xu hướng phát triển nhiều khách hàng có nhu cầu giải trí bằng việc đi hát, thay vì việc phải xem xét các quán hát khác nhau để tìm nơi phù hợp có thể sử dụng web để xem trước và đặt trước lịch trình.
+- Chưa có nhiều nền tảng tối ưu cho việc quản lý lịch đặt phòng karaok, nhất là với các chủ quán.
+- Tối đa hóa trải nghiệm người dùng và tạo một liên kết giữa chủ quán và khách hàng.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 3. Mục Tiêu
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Mô tả chi tiết dự án
+- **Tính năng của web:**
+  - Tìm kiếm  loại phòng, thời gian.
+  - Đặt phòng trực tuyến, xác nhận nhanh chóng.
+  - Hệ thống nhắc nhở lịch đã đặt.
+  - Tích hợp đánh giá chất lượng phòng.
+  - Giao diện thân thiện và hỗ trợ nhiều ngôn ngữ.
 
-## Laravel Sponsors
+- **Mãn ngăn khách hàng:**
+  - Các nhà quản lý phòng dễ quản lý các lịch đặt và doanh thu.
+  - Người dùng dễ dàng tìm kiếm và đặt phòng một cách nhanh chóng.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+---
 
-### Premium Partners
+## 4. Tính Mới và Tính Sáng Tạo
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- **Tính mới:**
+  - Gợi ý phong, thời gian phù hợp.
+  - Hỗ trợ thanh toán trực tuyến qua nhiều hình thức.
 
-## Contributing
+- **Tính sáng tạo:**
+  - Xây dựng công đồng người dùng tìm kiếm phòng hát còn trống.
+  - Các dịch vụ đi kèm phong phú.
+---
+## 5. Web Đặt Quán Hát 🎤
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+  ## 🌟 Tính năng chính
+  ✅ **Người dùng**
+  - Đăng ký, đăng nhập, xác thực bằng token (JWT)
+  - Xem danh sách quán hát theo địa điểm
+  - Đặt phòng hát với thời gian bắt đầu và kết thúc
+  - Hủy đặt phòng nếu chưa đến giờ bắt đầu
+  
+  ✅ **Quản trị viên (Admin)**
+  - Quản lý danh sách quán hát (thêm, sửa, xóa)
+  - Xem danh sách đơn đặt phòng của người dùng
+  - Quản lý tài khoản người dùng
+  
+  ## 🏗️ Công nghệ sử dụng
+  - Laravel 11.x
+  - MySQL (Cơ sở dữ liệu)
+  - Laravel Passport (Xác thực API)
+  - Laravel Policy (Phân quyền)
+  
+  
+  ## Sơ đồ USECASE
+  
+  ![image](https://github.com/user-attachments/assets/414542e3-1c68-484a-bbd1-a5f4bb24802d)
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+  ## Hình ảnh website
+  ![image](https://github.com/user-attachments/assets/98836a72-6ed4-449f-a344-3467c66d5e10)
+  ![image](https://github.com/user-attachments/assets/3075b801-d868-4bfc-8d79-eac68f56eae9)
+  ![image](https://github.com/user-attachments/assets/31d2dc6e-e5a3-4711-970e-05d8ff72b67f)
+  ![image](https://github.com/user-attachments/assets/1e0bcc4d-5474-48e1-822e-3b02dbd6d4a9)
+  ![image](https://github.com/user-attachments/assets/6c20f188-037c-4836-9432-d075090c9d69)
+  ![image](https://github.com/user-attachments/assets/2eb2f58f-412c-468b-9f53-1d0afc7b67ff)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 6. Team Member
+
+- Nguyễn Khắc Quang - 22010316
+- Nguyễn Danh Bảo Đăng - 22010507
