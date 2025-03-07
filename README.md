@@ -86,4 +86,4 @@ Dự án nhằm phát triển một nền tảng web giúp người dùng dễ d
 
 ## 6. Team Member
 - Nguyễn Danh Bảo Đăng - 22010507
-- Nguyễn Khắc Quang - 2201031622010316
+- Nguyễn Khắc Quang - 22010316 
