@@ -67,6 +67,8 @@ Dự án nhằm phát triển một nền tảng web giúp người dùng dễ d
   ## Sơ đồ use case
   ![image](https://github.com/user-attachments/assets/727543c3-8edd-4362-83ad-39fb812ede32)
 
+  ## Sơ đồ quan hệ thực thể 
+  ![image](https://github.com/user-attachments/assets/fab41c08-582e-4f18-b8d2-9fd7e53a7e06)
 
   ## Hình ảnh website
   ![image](https://github.com/user-attachments/assets/98836a72-6ed4-449f-a344-3467c66d5e10)
@@ -84,3 +86,4 @@ Dự án nhằm phát triển một nền tảng web giúp người dùng dễ d
 
 ## 6. Team Member
 - Nguyễn Danh Bảo Đăng - 22010507
+- Nguyễn Khắc Quang - 2201031622010316
